@@ -1,4 +1,4 @@
-# ER 图&数据库设计程序 | ER Diagram Design Program
+# ER Designer
 
 [**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version)
 
