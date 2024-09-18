@@ -43,7 +43,7 @@
 
 这款工具让您的数据库设计过程变得更加高效、直观、可视化，并助您快速构建和管理数据库结构。
 
-[点击这里从 App Store 下载](https://apps.apple.com/cn/app/report-kit/id6443579776?mt=12)
+[点击这里从 App Store 下载]https://apps.apple.com/cn/app/er-designer/id6670524297?mt=12)
 
 ---
 
@@ -86,4 +86,4 @@ Easily design and manage your database structure with our intuitive ER diagram d
 
 This tool makes your database design process more efficient, intuitive, and visual, helping you quickly build and manage database structures.
 
-[Click here to download on the App Store](https://apps.apple.com/cn/app/report-kit/id6443579776?mt=12)
+[Click here to download on the App Store](https://apps.apple.com/cn/app/er-designer/id6670524297?mt=12)
