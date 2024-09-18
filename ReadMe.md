@@ -1,4 +1,4 @@
-# ER Designer
+# ER Designer For MAC
 
 [**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version)
 
