@@ -43,14 +43,14 @@
 
 这款工具让您的数据库设计过程变得更加高效、直观、可视化，并助您快速构建和管理数据库结构。
 
-[点击这里从 App Store 下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
+[点击去App Store下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
 ---
 
 <a name="English-Version"></a>
 ## English Version
 
-Easily design and manage your database structure with our intuitive ER diagram design program. With support for touchpad drag-and-zoom functionality, this tool helps database administrators, developers, and architects efficiently visualize and manage database structures.
+Easily design and manage your database structure with our intuitive ER Designer program. With support for touchpad drag-and-zoom functionality, this tool helps database administrators, developers, and architects efficiently visualize and manage database structures.
 
 ### Key Features
 
