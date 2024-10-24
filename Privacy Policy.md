@@ -9,7 +9,7 @@
 
 ### 1. Introduction
 
-Welcome to [ER Designer]! We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our app.
+Welcome to ER Designer! We are committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our app.
 
 ### 2. Information We Collect
 
@@ -63,7 +63,7 @@ Email: [privacy@chainray.com]
 
 ### 1. 简介
 
-欢迎使用 [ER Designer]！我们致力于保护您的隐私。本隐私政策解释了我们如何在您使用我们的应用时收集、使用、披露和保护您的信息。
+欢迎使用 ER Designer！我们致力于保护您的隐私。本隐私政策解释了我们如何在您使用我们的应用时收集、使用、披露和保护您的信息。
 
 ### 2. 我们收集的信息
 
