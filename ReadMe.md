@@ -1,6 +1,6 @@
 # ER Designer For MAC
 
-[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version)  ｜[**wiki**](https://github.com/chainray01/er-designer-support/wiki/User-Operation-Guide)
+[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version)  ｜[**Wiki-User Operation Guide**](https://github.com/chainray01/er-designer-support/wiki/User-Operation-Guide)
 
 ---
 
