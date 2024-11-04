@@ -1,4 +1,5 @@
 # ER Designer For MAC
+<img width="1511" alt="截屏2024-11-04 10 47 27" src="https://github.com/user-attachments/assets/2f426f84-3099-42d9-bfc7-2507189d7883">
 
 [**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version)  ｜[wiki](https://github.com/chainray01/er-designer-support/wiki)
 
