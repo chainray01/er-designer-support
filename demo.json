@@ -1,0 +1,608 @@
+{
+  "extra" : {
+    "lastSaveTime" : 750693321.67862296,
+    "id" : "B19AA420-B4DE-4459-886F-7237B8918EDB",
+    "textBoxes" : [
+      {
+        "id" : "A77A8C79-19E9-4F24-B377-76C05EB6B2B0",
+        "text" : "demoaa",
+        "position" : [
+          -269.44504299423363,
+          261.10905726370743
+        ]
+      },
+      {
+        "id" : "4116239F-A54D-4073-8EB0-1D22EE9F8C29",
+        "text" : "asdsadasd",
+        "position" : [
+          774.01317159729842,
+          222.12733282072847
+        ]
+      }
+    ],
+    "rectangles" : [
+      {
+        "id" : "C6C8A07C-8D16-4998-A17D-6444EE807243",
+        "frame" : [
+          [
+            -72.506635861695031,
+            94.802576541867808
+          ],
+          [
+            1305.8869331377598,
+            723.6690607279121
+          ]
+        ],
+        "dragOffset" : [
+          0,
+          0
+        ]
+      }
+    ],
+    "canvasScale" : 0.77032343656716629,
+    "canvasOffset" : [
+      244.0129343565722,
+      59.301031652362326
+    ]
+  },
+  "id" : "CACFAD23-6504-46DA-B92B-107E534AA87F",
+  "metaInfo" : {
+    "meta" : "0x17A9B6",
+    "type" : "MYSQL",
+    "version" : "1.2.8"
+  },
+  "tables" : [
+    {
+      "id" : "2178DEA8-597E-49B5-AFE7-4223E38F15FE",
+      "table" : {
+        "indexes" : [
+
+        ],
+        "primaryKey" : [
+          "id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : true,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "分类ID",
+            "isNullable" : false,
+            "name" : "id"
+          },
+          {
+            "length" : "50",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "varchar",
+            "comment" : "分类名称",
+            "isNullable" : false,
+            "name" : "name"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "text",
+            "comment" : "分类描述",
+            "isNullable" : true,
+            "name" : "description"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "创建时间",
+            "isNullable" : false,
+            "name" : "created_at"
+          }
+        ],
+        "id" : "3FC25504-A265-4ED2-8663-2086B5214BC5",
+        "comment" : "categories",
+        "name" : "categories",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        225.10581945502361,
+        629.3228232289307
+      ]
+    },
+    {
+      "id" : "C26C264E-776E-4B59-BA96-94FCE815F41B",
+      "table" : {
+        "indexes" : [
+
+        ],
+        "primaryKey" : [
+          "id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : true,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "评论ID",
+            "isNullable" : false,
+            "name" : "id"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "文章ID",
+            "isNullable" : false,
+            "name" : "post_id"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "用户ID",
+            "isNullable" : false,
+            "name" : "user_id"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "text",
+            "comment" : "评论内容",
+            "isNullable" : false,
+            "name" : "content"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "创建时间",
+            "isNullable" : false,
+            "name" : "created_at"
+          }
+        ],
+        "id" : "B953B6A0-BDAF-4B5A-883F-0B38398ACC30",
+        "comment" : "",
+        "name" : "comments",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        877.51786146423524,
+        650.02466371039714
+      ]
+    },
+    {
+      "id" : "A7915332-3939-4B74-BCB7-546EEAFEE6BD",
+      "table" : {
+        "indexes" : [
+
+        ],
+        "primaryKey" : [
+          "post_id",
+          "tag_id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "文章ID",
+            "isNullable" : false,
+            "name" : "post_id"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "标签ID",
+            "isNullable" : false,
+            "name" : "tag_id"
+          }
+        ],
+        "id" : "444B40D0-6836-4FC4-A319-347D36FF7073",
+        "comment" : "",
+        "name" : "post_tags",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        537.98152546081951,
+        310.92939662146972
+      ]
+    },
+    {
+      "id" : "3355B39A-C96C-407C-ADBC-010A8D45AA98",
+      "table" : {
+        "indexes" : [
+          {
+            "columns" : [
+              "user_id"
+            ],
+            "indexType" : "Index",
+            "indexName" : "idx_userId",
+            "isPrimaryKey" : false
+          }
+        ],
+        "primaryKey" : [
+          "id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : true,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "文章ID",
+            "isNullable" : false,
+            "name" : "id"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "用户ID",
+            "isNullable" : false,
+            "name" : "user_id"
+          },
+          {
+            "length" : "255",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "varchar",
+            "comment" : "文章标题",
+            "isNullable" : false,
+            "name" : "title"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "text",
+            "comment" : "文章内容",
+            "isNullable" : true,
+            "name" : "content"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "创建时间",
+            "isNullable" : false,
+            "name" : "created_at"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "",
+            "isNullable" : false,
+            "name" : "updated_at"
+          }
+        ],
+        "id" : "4AE298F5-27B1-436E-BA45-625DC5F99F8E",
+        "comment" : "",
+        "name" : "posts",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        532.83738035576278,
+        649.44691207947983
+      ]
+    },
+    {
+      "id" : "318296CD-0190-4A10-84A2-C74AC519B2BD",
+      "table" : {
+        "indexes" : [
+
+        ],
+        "primaryKey" : [
+          "id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : true,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "标签ID",
+            "isNullable" : false,
+            "name" : "id"
+          },
+          {
+            "length" : "30",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "varchar",
+            "comment" : "标签名称",
+            "isNullable" : false,
+            "name" : "name"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "创建时间",
+            "isNullable" : false,
+            "name" : "created_at"
+          }
+        ],
+        "id" : "51BDA099-1DD4-45AA-B11F-E94391DF52BF",
+        "comment" : "标签表",
+        "name" : "tags",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        225.10581945502361,
+        324.43536588625096
+      ]
+    },
+    {
+      "id" : "75306FA7-F4FC-42E2-972C-54EA945BADC5",
+      "table" : {
+        "indexes" : [
+
+        ],
+        "primaryKey" : [
+          "id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : true,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "用户ID",
+            "isNullable" : false,
+            "name" : "id"
+          },
+          {
+            "length" : "50",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "varchar",
+            "comment" : "用户名",
+            "isNullable" : false,
+            "name" : "username"
+          },
+          {
+            "length" : "100",
+            "defaultValue" : "",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "varchar",
+            "comment" : "密码",
+            "isNullable" : false,
+            "name" : "password"
+          },
+          {
+            "length" : "100",
+            "defaultValue" : "NULL",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "varchar",
+            "comment" : "邮箱",
+            "isNullable" : true,
+            "name" : "email"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "创建时间",
+            "isNullable" : false,
+            "name" : "created_at"
+          },
+          {
+            "length" : "",
+            "defaultValue" : "CURRENT_TIMESTAMP",
+            "isAutoIncrement" : false,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : false,
+            "collation" : "",
+            "type" : "timestamp",
+            "comment" : "",
+            "isNullable" : false,
+            "name" : "updated_at"
+          }
+        ],
+        "id" : "31A70BAC-CE84-4E95-9B3A-EBEF3252EA24",
+        "comment" : "用户表",
+        "name" : "users",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        809.77910404978786,
+        360.72196870899722
+      ]
+    },
+    {
+      "id" : "B6FD8913-C6F3-4C6E-AE25-9FBF9147CDAA",
+      "table" : {
+        "indexes" : [
+
+        ],
+        "primaryKey" : [
+          "id"
+        ],
+        "columns" : [
+          {
+            "length" : "",
+            "defaultValue" : "",
+            "isAutoIncrement" : true,
+            "characterSet" : "",
+            "generatedAs" : "",
+            "isPrimaryKey" : true,
+            "collation" : "",
+            "type" : "int",
+            "comment" : "ID",
+            "isNullable" : false,
+            "name" : "id"
+          }
+        ],
+        "id" : "A18605E6-6055-48D8-8855-30FBE0A52182",
+        "comment" : "",
+        "name" : "New_Table",
+        "foreignKeys" : [
+
+        ]
+      },
+      "position" : [
+        -718.16971509263715,
+        274.8421830915666
+      ]
+    }
+  ],
+  "lines" : [
+    {
+      "id" : "9797A038-18CE-41D8-BBB9-B6FAC601D734",
+      "lineType" : "arrowLine",
+      "startTableId" : "3355B39A-C96C-407C-ADBC-010A8D45AA98",
+      "endTableId" : "75306FA7-F4FC-42E2-972C-54EA945BADC5"
+    },
+    {
+      "id" : "B4762C3B-0B5A-475E-96E0-2000C394ADDA",
+      "lineType" : "arrowLine",
+      "startTableId" : "C26C264E-776E-4B59-BA96-94FCE815F41B",
+      "endTableId" : "3355B39A-C96C-407C-ADBC-010A8D45AA98"
+    },
+    {
+      "id" : "EDF1616C-658E-49A7-914A-FC7CBDA3A289",
+      "lineType" : "arrowLine",
+      "startTableId" : "C26C264E-776E-4B59-BA96-94FCE815F41B",
+      "endTableId" : "75306FA7-F4FC-42E2-972C-54EA945BADC5"
+    },
+    {
+      "id" : "7BE36C6C-0066-48F2-961B-EE3A6562F91A",
+      "lineType" : "arrowLine",
+      "startTableId" : "A7915332-3939-4B74-BCB7-546EEAFEE6BD",
+      "endTableId" : "3355B39A-C96C-407C-ADBC-010A8D45AA98"
+    },
+    {
+      "id" : "34AE761C-B361-4054-AB7E-F8DC65328AB8",
+      "lineType" : "arrowLine",
+      "startTableId" : "A7915332-3939-4B74-BCB7-546EEAFEE6BD",
+      "endTableId" : "318296CD-0190-4A10-84A2-C74AC519B2BD"
+    }
+  ]
+}
