@@ -1,6 +1,6 @@
 # ER Designer For MAC
 
-[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version)  ｜[**User Guide**](https://github.com/chainray01/er-designer-support/wiki/guide)
+[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/)
 
 ---
 
@@ -45,6 +45,9 @@
 
 [点击去App Store下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
+#### 申请使用 TestFlight 版
+我们目前提供 ER Designer 的 TestFlight 版本，用户可以提前体验新功能并提供宝贵的反馈。点击 [申请 TestFlight 版](https://testflight.apple.com/join/4YJDYPwn) 来加入我们的测试计划！
+
 ---
 
 <a name="English-Version"></a>
@@ -87,3 +90,6 @@ Easily design and manage your database structure with our intuitive ER Designer 
 This tool makes your database design process more efficient, intuitive, and visual, helping you quickly build and manage database structures.
 
 [Click here to download on the App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
+
+#### Apply for TestFlight Access
+We are currently offering a TestFlight version of ER Designer, allowing users to experience new features early and provide valuable feedback. Click [Apply for TestFlight](https://testflight.apple.com/join/4YJDYPwn) to join our testing program!
