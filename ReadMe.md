@@ -105,4 +105,4 @@ This program uses the following open-source components:
   版权所有 © 2018 Qutheory, LLC  
   Copyright © 2018 Qutheory, LLC  
   根据 MIT 许可证授权。Licensed under the MIT License.  
-  详细信息请见 For details, see: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit)
+  详细信息请见 For details, see: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)
