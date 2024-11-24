@@ -1,6 +1,6 @@
 # ER Designer For MAC
 
-[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/)
+[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components)
 
 ---
 
@@ -96,13 +96,19 @@ We are currently offering a TestFlight version of ER Designer, allowing users to
 
 ---
 
+<a name="开源组件--open-source-components"></a>
 ## 开源组件 / Open Source Components
 
+### 中文说明
 本程序使用了以下开源组件：  
-This program uses the following open-source components:
-
-- `mysql-kit`  
+- **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
+  根据 MIT 许可证授权。详细信息请见：[mysql-kit GitHub 页面](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
+
+---
+
+### English Description
+This program uses the following open-source components:  
+- **mysql-kit**  
   Copyright © 2018 Qutheory, LLC  
-  根据 MIT 许可证授权。Licensed under the MIT License.  
-  详细信息请见 For details, see: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)
+  Licensed under the MIT License. For more details, visit: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file).
