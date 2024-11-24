@@ -93,3 +93,16 @@ This tool makes your database design process more efficient, intuitive, and visu
 
 #### Apply for TestFlight Access
 We are currently offering a TestFlight version of ER Designer, allowing users to experience new features early and provide valuable feedback. Click [Apply for TestFlight](https://testflight.apple.com/join/4YJDYPwn) to join our testing program!
+
+---
+
+## 开源组件 / Open Source Components
+
+本程序使用了以下开源组件：  
+This program uses the following open-source components:
+
+- `mysql-kit`  
+  版权所有 © 2018 Qutheory, LLC  
+  Copyright © 2018 Qutheory, LLC  
+  根据 MIT 许可证授权。Licensed under the MIT License.  
+  详细信息请见 For details, see: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit)
