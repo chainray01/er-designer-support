@@ -1,11 +1,10 @@
 # ER Designer For MAC
-
+![Image](./images/er.png)
 [**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) |[**entity-relationship-diagram**](https://www.databasestar.com/entity-relationship-diagram/)
 
 ---
 
 <a name="中文介绍"></a>
-## 中文介绍
 
 通过这款直观的ER图/数据库设计程序，轻松设计和管理您的数据库表结构，支持mac触控板拖移和缩放。无论您是数据库管理员、开发者还是架构师，这款工具都将帮助您更高效地展示和管理数据库结构。
 
@@ -51,7 +50,6 @@
 ---
 
 <a name="English-Version"></a>
-## English Version
 
 Easily design and manage your database structure with our intuitive ER Designer program. With support for touchpad drag-and-zoom functionality, this tool helps database administrators, developers, and architects efficiently visualize and manage database structures.
 
@@ -99,7 +97,6 @@ We are currently offering a TestFlight version of ER Designer, allowing users to
 <a name="开源组件--open-source-components"></a>
 ## 开源组件 / Open Source Components
 
-### 中文说明
 本程序使用了以下开源组件：  
 - **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
@@ -107,7 +104,6 @@ We are currently offering a TestFlight version of ER Designer, allowing users to
 
 ---
 
-### English Description
 This program uses the following open-source components:  
 - **mysql-kit**  
   Copyright © 2018 Qutheory, LLC  
