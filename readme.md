@@ -96,8 +96,6 @@ We are currently offering a TestFlight version of ER Designer, allowing users to
 ---
 
 <a name="开源组件--open-source-components"></a>
-## 开源组件 / Open Source Components
-
 本程序使用了以下开源组件：  
 - **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
