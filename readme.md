@@ -1,52 +1,7 @@
 # ER Designer For MAC
 
 ![Image](./images/er.png)  
-[**点击查看中文**](#中文介绍) | [**Click for English**](#English-Version) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**Entity-Relationship-Diagram**](https://www.databasestar.com/entity-relationship-diagram)
-
----
-
-<a name="中文介绍"></a>
-
-通过这款直观的ER图/数据库设计程序，轻松设计和管理您的**数据库表结构**，支持mac触控板拖移和缩放。无论您是数据库管理员、开发者还是架构师，这款工具都将帮助您更高效地展示和管理**数据库结构**。
-
-### 功能亮点
-
-- **无缝连接 MySQL 数据库**  
-  轻松连接 MySQL 数据库，快速导入和管理**数据库表结构**。
-
-- **数据库表结构的导入与导出**  
-  支持**数据库表结构**的轻松导入与导出，帮助您快速进行数据备份和迁移。
-
-- **创建表与字段管理**  
-  通过友好的界面创建**数据库表**的索引和字段属性。
-
-- **实时 SQL 生成与预览**  
-  自动生成 SQL 脚本，实时预览您设计的**数据库表结构**。
-
-- **设计保存与导入**  
-  支持将设计保存为文件或从之前保存的文件导入数据，便于随时恢复和修改。
-
-- **触控板操作支持**  
-  支持使用触控板轻松拖移和缩放**ER图**，提供直观的设计体验。
-
-- **ER 连接线绘制与文本注释**  
-  通过绘制清晰的**ER连接线**与自定义文本注释，增强设计的可读性与视觉效果。
-
-- **反向工程数据库**  
-  通过反向工程功能，将现有结构逆向到**数据库**中，快速进行数据库更新。
-
-### 适用人群
-
-- **数据库管理员**：帮助管理大型**数据库结构**并高效进行修改。
-- **开发者**：快速设计**数据库**，生成 SQL 并与代码无缝集成。
-- **架构师**：清晰展示**数据库结构**，提升沟通与协作效率。
-
-这款工具让您的**数据库设计**过程变得更加高效、直观、可视化，并助您快速构建和管理**数据库结构**。
-
-[点击去App Store下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
-
-#### 申请使用 TestFlight 版  
-我们目前提供 ER Designer 的 TestFlight 版本，用户可以提前体验新功能并提供宝贵的反馈。点击 [申请 TestFlight 版](https://testflight.apple.com/join/4YJDYPwn) 来加入我们的测试计划！
+[**Click for English**](#English-Version) | [**点击查看中文**](#中文介绍) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**Entity-Relationship-Diagram**](https://www.databasestar.com/entity-relationship-diagram)
 
 ---
 
@@ -95,15 +50,62 @@ We are currently offering a TestFlight version of ER Designer, allowing users to
 
 ---
 
-<a name="开源组件--open-source-components"></a>
-本程序使用了以下开源组件：  
-- **mysql-kit**  
-  版权所有 © 2018 Qutheory, LLC  
-  根据 MIT 许可证授权。详细信息请见：[mysql-kit GitHub 页面](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
+<a name="中文介绍"></a>
+
+通过这款直观的ER图/数据库设计程序，轻松设计和管理您的**数据库表结构**，支持mac触控板拖移和缩放。无论您是数据库管理员、开发者还是架构师，这款工具都将帮助您更高效地展示和管理**数据库结构**。
+
+### 功能亮点
+
+- **无缝连接 MySQL 数据库**  
+  轻松连接 MySQL 数据库，快速导入和管理**数据库表结构**。
+
+- **数据库表结构的导入与导出**  
+  支持**数据库表结构**的轻松导入与导出，帮助您快速进行数据备份和迁移。
+
+- **创建表与字段管理**  
+  通过友好的界面创建**数据库表**的索引和字段属性。
+
+- **实时 SQL 生成与预览**  
+  自动生成 SQL 脚本，实时预览您设计的**数据库表结构**。
+
+- **设计保存与导入**  
+  支持将设计保存为文件或从之前保存的文件导入数据，便于随时恢复和修改。
+
+- **触控板操作支持**  
+  支持使用触控板轻松拖移和缩放**ER图**，提供直观的设计体验。
+
+- **ER 连接线绘制与文本注释**  
+  通过绘制清晰的**ER连接线**与自定义文本注释，增强设计的可读性与视觉效果。
+
+- **反向工程数据库**  
+  通过反向工程功能，将现有结构逆向到**数据库**中，快速进行数据库更新。
+
+### 适用人群
+
+- **数据库管理员**：帮助管理大型**数据库结构**并高效进行修改。
+- **开发者**：快速设计**数据库**，生成 SQL 并与代码无缝集成。
+- **架构师**：清晰展示**数据库结构**，提升沟通与协作效率。
+
+这款工具让您的**数据库设计**过程变得更加高效、直观、可视化，并助您快速构建和管理**数据库结构**。
+
+[点击去App Store下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
+
+#### 申请使用 TestFlight 版  
+我们目前提供 ER Designer 的 TestFlight 版本，用户可以提前体验新功能并提供宝贵的反馈。点击 [申请 TestFlight 版](https://testflight.apple.com/join/4YJDYPwn) 来加入我们的测试计划！
 
 ---
+
+<a name="开源组件--open-source-components"></a>
 
 This program uses the following open-source components:  
 - **mysql-kit**  
   Copyright © 2018 Qutheory, LLC  
   Licensed under the MIT License. For more details, visit: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file).
+
+---
+
+本程序使用了以下开源组件：  
+- **mysql-kit**  
+  版权所有 © 2018 Qutheory, LLC  
+  根据 MIT 许可证授权。详细信息请见：[mysql-kit GitHub 页面](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
+
