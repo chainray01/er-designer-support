@@ -1,7 +1,7 @@
 # ER Designer For MAC
 
 ![Image](./images/er.png)  
-[**Click for English**](#English-Version) | [**点击查看中文**](#中文介绍) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**Entity-Relationship-Diagram**](https://www.databasestar.com/entity-relationship-diagram)
+|[**DownLoad**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**Click for English**](#English-Version) | [**点击查看中文**](#中文介绍) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**Entity-Relationship-Diagram**](https://www.databasestar.com/entity-relationship-diagram)
 
 ---
 
