@@ -1,111 +1,104 @@
-# ER Designer For macOS
+# ER Designer - Professional ERD Tool for Database Design on macOS
 
-![Image](./images/er.png)  
-|[**DownLoad**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**Click for English**](#English-Version) | [**点击查看中文**](#中文介绍) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**Entity-Relationship-Diagram**](https://www.databasestar.com/entity-relationship-diagram)
+![ER Designer - ERD (Entity-Relationship Diagram) Design Tool](./images/er.png)  
+|[**DownLoad**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**Click for English**](#English-Version) | [**点击查看中文**](#中文介绍) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**About ERD**](https://www.databasestar.com/entity-relationship-diagram)
 
 ---
 
 <a name="English-Version"></a>
 
-Easily design and manage your **database structure** with our intuitive ER Designer program. With support for touchpad drag-and-zoom functionality, this tool helps **database administrators**, developers, and architects efficiently visualize and manage **database structures** through **Entity Relationship Diagrams (ERD)**.
+Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER Designer platform for macOS. Perfect for MySQL database modeling and ERD design, this professional-grade tool leverages intuitive MacBook trackpad gestures to help database architects, full-stack developers, and system administrators efficiently design and maintain database schemas through visual ERD workflows.
 
-### Key Features
+### Advanced ERD Design Capabilities
 
-- **Seamless MySQL Database Integration**  
-  Effortlessly connect to MySQL **databases** for importing and managing **database schemas**.
+- **Native MySQL Database Integration**  
+  Connect directly to MySQL databases for seamless schema import and ERD management capabilities.
 
-- **Import and Export Database Schemas**  
-  Import and export **database schemas** with ease, simplifying backups and migrations.
+- **ERD Design State Persistence**  
+  Save and load your ERD designs through file-based storage, enabling reliable backup and restoration of database modeling workspace states.
 
-- **Create Tables and Manage Fields**  
-  Create custom **database tables**, define field types, and manage indexes with an intuitive interface.
+- **Professional ERD Design Interface**  
+  Design normalized database tables, configure field constraints, establish primary/foreign key relationships, and optimize indexes through an intuitive ERD interface.
 
-- **Real-time SQL Generation and Preview**  
-  Automatically generate SQL scripts and preview your **database structure** in real time.
+- **Real-time SQL Generator for ERD**  
+  Automatically generate SQL CREATE TABLE statements with real-time preview as you design your database ERD.
 
-- **Save and Import Designs**  
-  Save your design to a file or import data from a previous save for easy recovery and editing.
+- **MacBook Trackpad ERD Navigation**  
+  Leverage native MacBook trackpad gestures for precise manipulation of ERD elements, enhancing your database modeling experience.
 
-- **Touchpad Support**  
-  Easily drag and zoom **ER diagrams** using the touchpad for an intuitive design experience.
+- **Advanced Entity-Relationship Visualization**  
+  Create professional entity relationship diagrams with cardinality notation and contextual annotations for enhanced database documentation.
 
-- **ER Connection Lines and Annotations**  
-  Draw clear **ER connection lines** and add custom text annotations to enhance readability and visual appeal.
+- **ERD to Database Deployment**  
+  Transform your visual ERD designs into actual database structures, enabling rapid deployment of conceptual schemas into production environments.
 
-- **Reverse Engineer Databases**  
-  Visualize existing **database structures** and quickly update or improve them with reverse engineering.
+### Perfect for Database Professionals
 
-### Target Audience
+- **Database Architects**: Create and maintain enterprise ERDs and relational schemas
+- **Full-Stack Engineers**: Design database structures with visual ERD tools
+- **Solutions Architects**: Communicate database designs through professional ERD visualization
 
-- **Database Administrators**: Efficiently manage large-scale **database structures** and modifications.
-- **Developers**: Quickly design **databases**, generate SQL, and integrate seamlessly with your code.
-- **Architects**: Clearly present **database structures** to improve communication and collaboration.
+ER Designer revolutionizes database modeling through sophisticated ERD visualization and design capabilities, accelerating the development of robust data architectures on macOS.
 
-This tool makes your **database design** process more efficient, intuitive, and visual, helping you quickly build and manage **database structures** using **ERDs**.
+[Download ER Designer from the App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
-[Click here to download on the App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
-
-#### Apply for TestFlight Access  
-We are currently offering a TestFlight version of ER Designer, allowing users to experience new features early and provide valuable feedback. Click [Apply for TestFlight](https://testflight.apple.com/join/4YJDYPwn) to join our testing program!
+#### Beta Program Registration
+Join our TestFlight beta program to preview new ERD design features and shape the future of database modeling. [Register for TestFlight Access](https://testflight.apple.com/join/4YJDYPwn)
 
 ---
 
 <a name="中文介绍"></a>
 
-通过这款直观的ER图/数据库设计程序，轻松设计和管理您的**数据库表结构**，支持mac触控板拖移和缩放。无论您是数据库管理员、开发者还是架构师，这款工具都将帮助您更高效地展示和管理**数据库结构**。
+ER Designer 是一款专为macOS设计的专业级实体关系图（ERD）设计工具，让数据库模式的设计与管理变得简单高效。支持Mac触控板多指操作，为数据库架构师、全栈开发工程师和系统管理员提供专业的ERD可视化解决方案。
 
-### 功能亮点
+### ERD设计核心功能
 
-- **无缝连接 MySQL 数据库**  
-  轻松连接 MySQL 数据库，快速导入和管理**数据库表结构**。
+- **MySQL数据库集成**  
+  与MySQL数据库建立安全连接，实现数据库模式导入和ERD管理功能。
 
-- **数据库表结构的导入与导出**  
-  支持**数据库表结构**的轻松导入与导出，帮助您快速进行数据备份和迁移。
+- **ERD设计状态持久化**  
+  通过文件存储系统保存和加载ERD设计，实现工作区状态的可靠备份与恢复。
 
-- **创建表与字段管理**  
-  通过友好的界面创建**数据库表**的索引和字段属性。
+- **专业ERD设计界面**  
+  通过直观的图形界面定义规范化表结构、配置字段约束、建立主外键关系并优化索引。
 
-- **实时 SQL 生成与预览**  
-  自动生成 SQL 脚本，实时预览您设计的**数据库表结构**。
+- **实时SQL生成预览**  
+  在设计ERD时自动编译并实时预览SQL CREATE TABLE语句。
 
-- **设计保存与导入**  
-  支持将设计保存为文件或从之前保存的文件导入数据，便于随时恢复和修改。
+- **Mac原生触控板操作**  
+  利用Mac触控板多指手势实现ERD元素的精确操作，提升数据库建模体验。
 
-- **触控板操作支持**  
-  支持使用触控板轻松拖移和缩放**ER图**，提供直观的设计体验。
+- **高级实体关系图可视化**  
+  创建专业的实体关系图，包含基数标注和上下文注释，增强数据库文档的可读性。
 
-- **ER 连接线绘制与文本注释**  
-  通过绘制清晰的**ER连接线**与自定义文本注释，增强设计的可读性与视觉效果。
+- **ERD数据库部署**  
+  将可视化ERD设计转换为实际的数据库结构，实现从概念模式到生产环境的快速部署。
 
-- **反向工程数据库**  
-  通过反向工程功能，将现有结构逆向到**数据库**中，快速进行数据库更新。
+### 适用专业人群
 
-### 适用人群
+- **数据库架构师**：设计和维护企业级ERD和关系模式
+- **全栈工程师**：通过ERD工具加速数据库结构设计
+- **解决方案架构师**：通过专业的ERD可视化促进团队沟通
 
-- **数据库管理员**：帮助管理大型**数据库结构**并高效进行修改。
-- **开发者**：快速设计**数据库**，生成 SQL 并与代码无缝集成。
-- **架构师**：清晰展示**数据库结构**，提升沟通与协作效率。
+ER Designer通过先进的ERD可视化和建模功能革新了数据库设计流程，加速在macOS平台上构建健壮的数据架构。
 
-这款工具让您的**数据库设计**过程变得更加高效、直观、可视化，并助您快速构建和管理**数据库结构**。
+[前往App Store下载ER Designer](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
-[点击去App Store下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
-
-#### 申请使用 TestFlight 版  
-我们目前提供 ER Designer 的 TestFlight 版本，用户可以提前体验新功能并提供宝贵的反馈。点击 [申请 TestFlight 版](https://testflight.apple.com/join/4YJDYPwn) 来加入我们的测试计划！
+#### 测试版计划注册
+加入我们的TestFlight测试计划，抢先体验新的ERD设计功能。[注册TestFlight访问权限](https://testflight.apple.com/join/4YJDYPwn)
 
 ---
 
 <a name="开源组件--open-source-components"></a>
 
-This program uses the following open-source components:  
+This application incorporates the following open-source dependencies:  
 - **mysql-kit**  
   Copyright © 2018 Qutheory, LLC  
-  Licensed under the MIT License. For more details, visit: [mysql-kit GitHub Page](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file).
+  Distributed under the MIT License. Documentation available at: [mysql-kit GitHub Repository](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file).
 
 ---
 
-本程序使用了以下开源组件：  
+本应用程序集成了以下开源依赖项：  
 - **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
-  根据 MIT 许可证授权。详细信息请见：[mysql-kit GitHub 页面](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
-
+  基于MIT许可证分发。文档详见：[mysql-kit GitHub代码库](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
