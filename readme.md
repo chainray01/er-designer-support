@@ -20,7 +20,7 @@ Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER D
 - **Professional ERD Design Interface**  
   Design normalized database tables, configure field constraints, establish primary/foreign key relationships, and optimize indexes through an intuitive ERD interface.
 
-- **Real-time SQL Generator for ERD**  
+- **Real-time SQL Generator for ERD Designs**  
   Automatically generate SQL CREATE TABLE statements with real-time preview as you design your database ERD.
 
 - **MacBook Trackpad ERD Navigation**  
@@ -29,8 +29,8 @@ Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER D
 - **Advanced Entity-Relationship Visualization**  
   Create professional entity relationship diagrams with cardinality notation and contextual annotations for enhanced database documentation.
 
-- **ERD to Database Deployment**  
-  Transform your visual ERD designs into actual database structures, enabling rapid deployment of conceptual schemas into production environments.
+- **Reverse Engineering ERD Designs into Databases**  
+  Convert your ERD designs into deployable database structures through reverse engineering, enabling rapid deployment of conceptual schemas into production environments.
 
 ### Perfect for Database Professionals
 
@@ -49,43 +49,43 @@ Join our TestFlight beta program to preview new ERD design features and shape th
 
 <a name="中文介绍"></a>
 
-ER Designer 是一款专为macOS设计的专业级实体关系图（ERD）设计工具，让数据库模式的设计与管理变得简单高效。支持Mac触控板多指操作，为数据库架构师、全栈开发工程师和系统管理员提供专业的ERD可视化解决方案。
+ER Designer 是一款专为 macOS 设计的专业级实体关系图（ERD）设计工具，让数据库模式的设计与管理变得简单高效。支持 Mac 触控板多指操作，为数据库架构师、全栈开发工程师和系统管理员提供专业的 ERD 可视化解决方案。
 
-### ERD设计核心功能
+### ERD 设计核心功能
 
-- **MySQL数据库集成**  
-  与MySQL数据库建立安全连接，实现数据库模式导入和ERD管理功能。
+- **MySQL 数据库集成**  
+  与 MySQL 数据库建立安全连接，实现数据库模式导入和 ERD 管理功能。
 
-- **ERD设计状态持久化**  
-  通过文件存储系统保存和加载ERD设计，实现工作区状态的可靠备份与恢复。
+- **ERD 设计状态持久化**  
+  通过文件存储系统保存和加载 ERD 设计，实现工作区状态的可靠备份与恢复。
 
-- **专业ERD设计界面**  
+- **专业 ERD 设计界面**  
   通过直观的图形界面定义规范化表结构、配置字段约束、建立主外键关系并优化索引。
 
-- **实时SQL生成预览**  
-  在设计ERD时自动编译并实时预览SQL CREATE TABLE语句。
+- **实时 SQL 生成预览**  
+  在设计 ERD 时自动编译并实时预览 SQL CREATE TABLE 语句。
 
-- **Mac原生触控板操作**  
-  利用Mac触控板多指手势实现ERD元素的精确操作，提升数据库建模体验。
+- **Mac 原生触控板操作**  
+  利用 Mac 触控板多指手势实现 ERD 元素的精确操作，提升数据库建模体验。
 
 - **高级实体关系图可视化**  
   创建专业的实体关系图，包含基数标注和上下文注释，增强数据库文档的可读性。
 
-- **ERD数据库部署**  
-  将可视化ERD设计转换为实际的数据库结构，实现从概念模式到生产环境的快速部署。
+- **ERD 设计反向工程到数据库**  
+  将 ERD 设计通过反向工程转换为可部署的数据库结构，实现从概念模式到生产环境的快速部署。
 
 ### 适用专业人群
 
-- **数据库架构师**：设计和维护企业级ERD和关系模式
-- **全栈工程师**：通过ERD工具加速数据库结构设计
-- **解决方案架构师**：通过专业的ERD可视化促进团队沟通
+- **数据库架构师**：设计和维护企业级 ERD 和关系模式
+- **全栈工程师**：通过 ERD 工具加速数据库结构设计
+- **解决方案架构师**：通过专业的 ERD 可视化促进团队沟通
 
-ER Designer通过先进的ERD可视化和建模功能革新了数据库设计流程，加速在macOS平台上构建健壮的数据架构。
+ER Designer 通过先进的 ERD 可视化和建模功能革新了数据库设计流程，加速在 macOS 平台上构建健壮的数据架构。
 
-[前往App Store下载ER Designer](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
+[前往 App Store 下载 ER Designer](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
 #### 测试版计划注册
-加入我们的TestFlight测试计划，抢先体验新的ERD设计功能。[注册TestFlight访问权限](https://testflight.apple.com/join/4YJDYPwn)
+加入我们的 TestFlight 测试计划，抢先体验新的 ERD 设计功能。[注册 TestFlight 访问权限](https://testflight.apple.com/join/4YJDYPwn)
 
 ---
 
@@ -101,4 +101,4 @@ This application incorporates the following open-source dependencies:
 本应用程序集成了以下开源依赖项：  
 - **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
-  基于MIT许可证分发。文档详见：[mysql-kit GitHub代码库](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
+  基于 MIT 许可证分发。文档详见：[mysql-kit GitHub 代码库](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
