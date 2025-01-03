@@ -6,7 +6,7 @@
 ---
 
 <a name="English-Version"></a>
-
+## About ER Designer
 Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER Designer platform for macOS. Perfect for MySQL database modeling and ERD design, this professional-grade tool leverages intuitive MacBook trackpad gestures to help database architects, full-stack developers, and system administrators efficiently design and maintain database schemas through visual ERD workflows.
 
 ### Advanced ERD Design Capabilities
@@ -42,13 +42,10 @@ ER Designer revolutionizes database modeling through sophisticated ERD visualiza
 
 [Download ER Designer from the App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
-#### Beta Program Registration
-Join our TestFlight beta program to preview new ERD design features and shape the future of database modeling. [Register for TestFlight Access](https://testflight.apple.com/join/4YJDYPwn)
-
 ---
 
 <a name="中文介绍"></a>
-
+## ER Designer 简介
 ER Designer 是一款专为 macOS 设计的专业级实体关系图（ERD）设计工具，让数据库模式的设计与管理变得简单高效。支持 Mac 触控板多指操作，为数据库架构师、全栈开发工程师和系统管理员提供专业的 ERD 可视化解决方案。
 
 ### ERD 设计核心功能
@@ -83,9 +80,6 @@ ER Designer 是一款专为 macOS 设计的专业级实体关系图（ERD）设�
 ER Designer 通过先进的 ERD 可视化和建模功能革新了数据库设计流程，加速在 macOS 平台上构建健壮的数据架构。
 
 [前往 App Store 下载 ER Designer](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
-
-#### 测试版计划注册
-加入我们的 TestFlight 测试计划，抢先体验新的 ERD 设计功能。[注册 TestFlight 访问权限](https://testflight.apple.com/join/4YJDYPwn)
 
 ---
 
