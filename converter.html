@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER JSON Converter (v1.3.4)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            line-height: 1.5;
+        }
+        .container {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .upload-area {
+            border: 2px dashed #ccc;
+            border-radius: 4px;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            background: white;
+        }
+        .upload-area.dragover {
+            border-color: #4CAF50;
+            background: #e8f5e9;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 0.5rem;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+        .status {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 4px;
+        }
+        .success {
+            background: #e8f5e9;
+            color: #1b5e20;
+        }
+        .error {
+            background: #ffebee;
+            color: #b71c1c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ER JSON Converter (v1.3.4)</h1>
+        <p>Convert pre-1.3.4 ER JSON files to support array-type foreign key columns</p>
+        
+        <div class="upload-area" id="dropZone">
+            <p>Drag and drop your JSON file here or click to select</p>
+            <input type="file" id="fileInput" accept=".json" style="display: none">
+            <button onclick="document.getElementById('fileInput').click()">Select File</button>
+        </div>
+        
+        <div id="status" class="status" style="display: none;"></div>
+        
+        <button id="downloadBtn" disabled>Download Converted File</button>
+    </div>
+
+    <script>
+        let convertedData = null;
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+        const statusDiv = document.getElementById('status');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        // Handle drag and drop events
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, preventDefaults, false);
+        });
+
+        function preventDefaults(e) {
+            e.preventDefault();
+            e.stopPropagation();
+        }
+
+        ['dragenter', 'dragover'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => {
+                dropZone.classList.add('dragover');
+            });
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+            dropZone.addEventListener(eventName, () => {
+                dropZone.classList.remove('dragover');
+            });
+        });
+
+        // Handle file drop
+        dropZone.addEventListener('drop', handleDrop);
+        fileInput.addEventListener('change', handleFileSelect);
+
+        function handleDrop(e) {
+            const dt = e.dataTransfer;
+            const file = dt.files[0];
+            handleFile(file);
+        }
+
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            handleFile(file);
+        }
+
+        function handleFile(file) {
+            if (!file) return;
+            
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    convertData(data);
+                } catch (err) {
+                    showStatus('Error parsing JSON file: ' + err.message, 'error');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function convertData(data) {
+            try {
+                // Deep clone the data
+                const newData = JSON.parse(JSON.stringify(data));
+
+                // Convert foreign keys in all tables
+                if (newData.tables && Array.isArray(newData.tables)) {
+                    newData.tables.forEach(table => {
+                        if (table.table && table.table.foreignKeys) {
+                            table.table.foreignKeys = table.table.foreignKeys.map(fk => ({
+                                ...fk,
+                                columnName: Array.isArray(fk.columnName) ? fk.columnName : [fk.columnName],
+                                referencedColumn: Array.isArray(fk.referencedColumn) ? fk.referencedColumn : [fk.referencedColumn]
+                            }));
+                        }
+                    });
+                }
+
+                convertedData = newData;
+                showStatus('File converted successfully!', 'success');
+                downloadBtn.disabled = false;
+            } catch (err) {
+                showStatus('Error converting data: ' + err.message, 'error');
+                downloadBtn.disabled = true;
+            }
+        }
+
+        function showStatus(message, type) {
+            statusDiv.textContent = message;
+            statusDiv.className = 'status ' + type;
+            statusDiv.style.display = 'block';
+        }
+
+        downloadBtn.addEventListener('click', () => {
+            if (!convertedData) return;
+            
+            const blob = new Blob([JSON.stringify(convertedData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'converted_er_diagram.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+    </script>
+</body>
+</html>
