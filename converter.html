@@ -60,12 +60,22 @@
             background: #ffebee;
             color: #b71c1c;
         }
+        .version-info {
+            margin-bottom: 1rem;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>ER JSON Converter (v1.3.4)</h1>
-        <p>Convert pre-1.3.4 ER JSON files to support array-type foreign key columns</p>
+        <div class="version-info">
+            <p>Updates:</p>
+            <ul>
+                <li>Convert columnName and referencedColumn to arrays</li>
+                <li>Add name field to ForeignKeyInfo</li>
+            </ul>
+        </div>
         
         <div class="upload-area" id="dropZone">
             <p>Drag and drop your JSON file here or click to select</p>
@@ -137,6 +147,11 @@
             reader.readAsText(file);
         }
 
+        function generateForeignKeyName(fk) {
+            // Generate a meaningful name based on the relationship
+            return `fk_${fk.columnName}_${fk.referencedTable}`;
+        }
+
         function convertData(data) {
             try {
                 // Deep clone the data
@@ -146,13 +161,24 @@
                 if (newData.tables && Array.isArray(newData.tables)) {
                     newData.tables.forEach(table => {
                         if (table.table && table.table.foreignKeys) {
-                            table.table.foreignKeys = table.table.foreignKeys.map(fk => ({
-                                ...fk,
-                                columnName: Array.isArray(fk.columnName) ? fk.columnName : [fk.columnName],
-                                referencedColumn: Array.isArray(fk.referencedColumn) ? fk.referencedColumn : [fk.referencedColumn]
-                            }));
+                            table.table.foreignKeys = table.table.foreignKeys.map(fk => {
+                                // Add name field if it doesn't exist
+                                const name = fk.name || generateForeignKeyName(fk);
+                                
+                                return {
+                                    ...fk,
+                                    name,
+                                    columnName: Array.isArray(fk.columnName) ? fk.columnName : [fk.columnName],
+                                    referencedColumn: Array.isArray(fk.referencedColumn) ? fk.referencedColumn : [fk.referencedColumn]
+                                };
+                            });
                         }
                     });
+                }
+
+                // Update version in metaInfo
+                if (newData.metaInfo) {
+                    newData.metaInfo.version = "1.3.4";
                 }
 
                 convertedData = newData;
