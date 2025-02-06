@@ -7,33 +7,33 @@
 
 <a name="English-Version"></a>
 ## About ER Designer
-Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER Designer platform for macOS. Perfect for MySQL and PostgreSQL database modeling and ERD design, this professional-grade tool leverages intuitive MacBook trackpad gestures to help database architects, full-stack developers, and system administrators efficiently design and maintain database schemas through visual ERD workflows.
+A professional ERD design tool for macOS that simplifies database modeling. With native support for MySQL and PostgreSQL, ER Designer combines intuitive MacBook gestures with powerful design features to streamline your database architecture workflow.
 
-### Advanced ERD Design Capabilities
+### Key Features
 
-- **Familiar User Experience**  
-  Adopts standard macOS gestures and common IDE shortcuts, minimizing the learning curve with an interface that feels natural to macOS users.
+- **Intuitive Design Experience**  
+  Native macOS interface with familiar gestures and IDE-like shortcuts for instant productivity.
 
-- **Multiple Database Support**  
-  Connect directly to MySQL and PostgreSQL databases for seamless schema import and ERD management capabilities.
+- **Seamless Database Integration**  
+  Direct connection to MySQL and PostgreSQL databases for effortless schema management.
 
-- **ERD Design State Persistence**  
-  Save and load your ERD designs through file-based storage, enabling reliable backup and restoration of database modeling workspace states.
+- **Smart Workspace Management**  
+  Persistent design states with reliable file-based storage and recovery.
 
-- **Professional ERD Design Interface**  
-  Design normalized database tables, configure field constraints, establish primary/foreign key relationships, and optimize indexes through an intuitive ERD interface.
+- **Professional Design Tools**  
+  Streamlined interface for table normalization, constraints, relationships, and index optimization.
 
-- **Real-time SQL Generator for ERD Designs**  
-  Automatically generate SQL CREATE TABLE statements with real-time preview as you design your database ERD.
+- **Real-time SQL Preview**  
+  Instant SQL generation as you design, ensuring accurate schema implementation.
 
-- **MacBook Trackpad ERD Navigation**  
-  Leverage familiar MacBook trackpad gestures for precise manipulation of ERD elements, matching system-wide navigation patterns.
+- **Natural Navigation**  
+  System-native trackpad gestures for fluid ERD manipulation.
 
-- **Advanced Entity-Relationship Visualization**  
-  Create professional entity relationship diagrams with cardinality notation and contextual annotations for enhanced database documentation.
+- **Enhanced Visualization**  
+  Professional diagrams with clear cardinality notation and contextual documentation.
 
-- **Database Synchronization**  
-  Directly synchronize your ERD designs to connected databases, enabling immediate deployment of schema changes to your development or production environments.
+- **Direct Deployment**  
+  One-click synchronization from design to database environments.
 
 ### Perfect for Database Professionals
 
@@ -49,33 +49,33 @@ ER Designer revolutionizes database modeling through sophisticated ERD visualiza
 
 <a name="中文介绍"></a>
 ## ER Designer 简介
-ER Designer 是一款专为 macOS 设计的专业级实体关系图（ERD）设计工具，支持 MySQL 和 PostgreSQL 数据库的建模与管理，让数据库模式的设计变得简单高效。支持 Mac 触控板多指操作，为数据库架构师、全栈开发工程师和系统管理员提供专业的 ERD 可视化解决方案。
+ER Designer 是一款专业的 macOS 数据库建模工具，为 MySQL 和 PostgreSQL 提供原生支持。结合 Mac 原生操作体验和强大的设计功能，让数据库架构设计更简单高效。
 
-### ERD 设计核心功能
+### 核心优势
 
-- **熟悉的用户体验**  
-  采用标准的 macOS 操作手势和常见的 IDE 快捷键，符合用户使用习惯，几乎无需额外学习。
+- **原生操作体验**  
+  采用 macOS 标准交互方式，熟悉的操作模式让您立即上手。
 
-- **多数据库类型支持**  
-  与 MySQL 和 PostgreSQL 数据库建立安全连接，实现数据库模式导入和 ERD 管理功能。
+- **无缝数据库集成**  
+  直连 MySQL 和 PostgreSQL，轻松导入和管理数据库架构。
 
-- **ERD 设计状态持久化**  
-  通过文件存储系统保存和加载 ERD 设计，实现工作区状态的可靠备份与恢复。
+- **智能工作区管理**  
+  可靠的文件存储系统确保设计状态安全保存与恢复。
 
-- **专业 ERD 设计界面**  
-  通过直观的图形界面定义规范化表结构、配置字段约束、建立主外键关系并优化索引。
+- **专业设计工具**  
+  简洁界面轻松完成表规范化、约束配置、关系建立和索引优化。
 
-- **实时 SQL 生成预览**  
-  在设计 ERD 时自动编译并实时预览 SQL CREATE TABLE 语句。
+- **实时 SQL 预览**  
+  设计即时生成 SQL，确保架构实现准确无误。
 
-- **Mac 原生触控板操作**  
-  采用与系统一致的 Mac 触控板多指手势操作方式，让用户可以快速上手，自然流畅地操作 ERD 元素。
+- **流畅操作体验**  
+  系统原生触控板手势，实现自然流畅的 ERD 操作。
 
-- **高级实体关系图可视化**  
-  创建专业的实体关系图，包含基数标注和上下文注释，增强数据库文档的可读性。
+- **增强可视化**  
+  专业的关系图展示，清晰的基数标注和上下文文档。
 
-- **数据库同步功能**  
-  直接将 ERD 设计同步到连接的数据库中，实现架构变更的即时部署到开发或生产环境。
+- **快速部署**  
+  一键同步设计到数据库环境。
 
 ### 适用专业人群
 
