@@ -1,38 +1,36 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
+name: Bug Report
+about: Report an issue to help improve ER Designer
+title: '[BUG] '
+labels: 'bug'
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Bug Description**
+A clear and concise description of the issue.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Environment**
+- macOS Version: [e.g. 14.1]
+- ER Designer Version: [e.g. 1.2.0]
+- Database Type: [MySQL/PostgreSQL]
+- Database Version: [e.g. MySQL 8.0]
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Steps to Reproduce**
+1. 
+2. 
+3. 
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Expected Behavior**
+What should have happened?
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Actual Behavior**
+What happened instead?
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Screenshots/Logs**
+If applicable, add screenshots or error logs to help explain your problem.
 
-**Additional context**
-Add any other context about the problem here.
+**Additional Context**
+- Were you working with an existing database or creating a new schema?
+- Did this issue occur during specific operations (e.g., import, export, diagram editing)?
+- Any other relevant details?
