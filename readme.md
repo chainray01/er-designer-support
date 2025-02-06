@@ -11,8 +11,8 @@ Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER D
 
 ### Advanced ERD Design Capabilities
 
-- **Native MySQL Database Integration**  
-  Connect directly to MySQL databases for seamless schema import and ERD management capabilities.
+- **Multiple Database Support**  
+  Connect directly to MySQL and PostgreSQL databases for seamless schema import and ERD management capabilities.
 
 - **ERD Design State Persistence**  
   Save and load your ERD designs through file-based storage, enabling reliable backup and restoration of database modeling workspace states.
@@ -29,8 +29,8 @@ Create and manage Entity-Relationship Diagrams (ERD) with our sophisticated ER D
 - **Advanced Entity-Relationship Visualization**  
   Create professional entity relationship diagrams with cardinality notation and contextual annotations for enhanced database documentation.
 
-- **Reverse Engineering ERD Designs into Databases**  
-  Convert your ERD designs into deployable database structures through reverse engineering, enabling rapid deployment of conceptual schemas into production environments.
+- **Database Synchronization**  
+  Directly synchronize your ERD designs to connected databases, enabling immediate deployment of schema changes to your development or production environments.
 
 ### Perfect for Database Professionals
 
@@ -50,8 +50,8 @@ ER Designer 是一款专为 macOS 设计的专业级实体关系图（ERD）设�
 
 ### ERD 设计核心功能
 
-- **MySQL 数据库集成**  
-  与 MySQL 数据库建立安全连接，实现数据库模式导入和 ERD 管理功能。
+- **多数据库类型支持**  
+  与 MySQL 和 PostgreSQL 数据库建立安全连接，实现数据库模式导入和 ERD 管理功能。
 
 - **ERD 设计状态持久化**  
   通过文件存储系统保存和加载 ERD 设计，实现工作区状态的可靠备份与恢复。
@@ -68,8 +68,8 @@ ER Designer 是一款专为 macOS 设计的专业级实体关系图（ERD）设�
 - **高级实体关系图可视化**  
   创建专业的实体关系图，包含基数标注和上下文注释，增强数据库文档的可读性。
 
-- **ERD 设计反向工程到数据库**  
-  将 ERD 设计通过反向工程转换为可部署的数据库结构，实现从概念模式到生产环境的快速部署。
+- **数据库同步功能**  
+  直接将 ERD 设计同步到连接的数据库中，实现架构变更的即时部署到开发或生产环境。
 
 ### 适用专业人群
 
