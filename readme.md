@@ -33,7 +33,7 @@ A professional ERD design tool for macOS that simplifies database modeling. With
   Professional diagrams with clear cardinality notation and contextual documentation.
 
 - **Direct Deployment**  
-  One-click synchronization from design to database environments.
+  Database reverse engineering and one-click synchronization between design and database environments.
 
 ### Perfect for Database Professionals
 
@@ -75,7 +75,7 @@ ER Designer 是一款专业的 macOS 数据库建模工具，为 MySQL 和 Postg
   专业的关系图展示，清晰的基数标注和上下文文档。
 
 - **快速部署**  
-  一键同步设计到数据库环境。
+  数据库反向工程与设计同步部署。
 
 ### 适用专业人群
 
