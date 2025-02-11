@@ -1,15 +1,21 @@
-# ER Designer - Enterprise-Grade ERD Tool for Database Architecture on macOS
+# ER Designer - Professional Entity Relationship Diagram (ERD) Tool for Database Design | macOS
 
-![ER Designer - Professional Database Modeling and ERD Design Tool](./images/er.png)  
+![ER Designer - Entity Relationship Diagram (ERD) Tool for Database Modeling and Design](./images/er.png)  
 |[**Download**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**English**](#English-Version) | [**中文**](#中文介绍) | [**Documentation**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source**](#开源组件--open-source-components) | [**ERD Reference**](https://www.databasestar.com/entity-relationship-diagram)
 
 ---
 
 <a name="English-Version"></a>
-## Enterprise Database Modeling Solution
-ER Designer is an enterprise-grade ERD (Entity-Relationship Diagram) design platform for macOS, offering native support for industry-standard databases including MySQL and PostgreSQL. It combines Apple's intuitive user experience with professional database modeling capabilities to accelerate your database architecture workflow.
+## Professional Database Modeling & ERD Design Solution
+ER Designer is an advanced Entity Relationship Diagram (ERD) design and database modeling platform for macOS. Supporting industry-standard databases including MySQL and PostgreSQL, ER Designer combines powerful ERD visualization with professional database modeling capabilities to streamline your database architecture workflow.
 
-### Enterprise Features
+### Professional ERD Design Features
+
+- **Visual ERD Creation & Editing**  
+  Create and modify Entity Relationship Diagrams (ERD) with intuitive macOS-native controls and professional modeling tools.
+
+- **Database Modeling Excellence**  
+  Enterprise-grade ERD modeling with comprehensive database design features and complete offline capability.
 
 - **Native macOS Integration**  
   Leverages system-native UI/UX patterns and IDE-standard keyboard shortcuts for maximum productivity.
@@ -38,30 +44,33 @@ ER Designer is an enterprise-grade ERD (Entity-Relationship Diagram) design plat
 - **Production Deployment**  
   Bi-directional schema engineering with automated synchronization between models and databases.
 
-### Target Audience
+### Industry Applications
 
-- **Database Architects**: Design and maintain enterprise-scale data models and relational schemas
-- **Systems Engineers**: Implement complex database architectures with visual modeling tools
-- **Solutions Architects**: Facilitate cross-team communication through professional ERD visualization
-- **Database Administrators**: Manage and optimize existing database structures
+- **Database Architects & ERD Designers**: Create, maintain and optimize Entity Relationship Diagrams for enterprise systems
+- **Database Engineers**: Design and implement database schemas using professional ERD tools
+- **Solutions Architects**: Communicate database designs through ERD visualization
+- **Database Administrators (DBA)**: Manage database structures with visual ERD support
 
-ER Designer elevates database modeling through sophisticated visualization and enterprise-grade design capabilities, accelerating the development of robust data architectures in modern development environments.
+ER Designer transforms database modeling through advanced ERD visualization and professional design features, enabling rapid development of robust database architectures on macOS.
 
 [Available on the Mac App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
 ---
 
 <a name="中文介绍"></a>
-## 企业级数据库建模解决方案
-ER Designer 是一款企业级数据库建模平台，为 MySQL 和 PostgreSQL 等主流数据库提供原生支持。完美结合 macOS 优质体验与专业数据库建模功能，显著提升数据架构设计效率。
+## 专业级实体关系图（ERD）设计解决方案
+ER Designer 是一款专业的实体关系图（ERD）设计与数据库建模平台，为 MySQL 和 PostgreSQL 数据库提供原生支持。完美结合 macOS 卓越体验与专业 ERD 设计功能，全面提升数据库架构设计效率。
 
-### 企业级特性
+### 专业 ERD 设计特性
+
+- **可视化 ERD 创建与编辑**  
+  通过直观的 macOS 原生控件和专业建模工具，轻松创建和修改实体关系图（ERD）。
+
+- **数据库建模卓越性**  
+  企业级 ERD 建模能力，提供全面的数据库设计功能，支持完全离线运作。
 
 - **原生系统集成**  
   采用 macOS 原生交互范式，配合 IDE 级快捷键体系，确保最佳操作效率。
-
-- **专业建模工具**  
-  企业级建模能力，无广告干扰，支持完全离线运行。
 
 - **数据库引擎支持**  
   深度集成 MySQL 和 PostgreSQL，提供直接的模式操作能力。
@@ -84,12 +93,12 @@ ER Designer 是一款企业级数据库建模平台，为 MySQL 和 PostgreSQL �
 - **生产环境部署**  
   双向模式工程能力，自动化同步模型与数据库环境。
 
-### 目标用户
+### 行业应用
 
-- **数据库架构师**：设计与维护企业级数据模型和关系模式
-- **系统工程师**：通过可视化建模工具实现复杂数据库架构
-- **解决方案架构师**：通过专业 ERD 可视化促进团队协作
-- **数据库管理员**：管理和优化现有数据库结构
+- **数据库架构师与 ERD 设计师**：创建、维护和优化企业系统实体关系图
+- **数据库工程师**：使用专业 ERD 工具设计和实现数据库架构
+- **解决方案架构师**：通过 ERD 可视化促进数据库设计沟通
+- **数据库管理员（DBA）**：借助可视化 ERD 管理数据库结构
 
 ER Designer 通过先进的可视化和企业级设计能力重新定义数据库建模流程，加速在现代开发环境中构建健壮的数据架构。
 
