@@ -14,6 +14,9 @@ A professional ERD design tool for macOS that simplifies database modeling. With
 - **Intuitive Design Experience**  
   Native macOS interface with familiar gestures and IDE-like shortcuts for instant productivity.
 
+- **Lightweight & Professional**  
+  Clean, focused interface without ads or distractions, perfect for professional work.
+
 - **Seamless Database Integration**  
   Direct connection to MySQL and PostgreSQL databases for effortless schema management.
 
@@ -55,6 +58,9 @@ ER Designer 是一款专业的 macOS 数据库建模工具，为 MySQL 和 Postg
 
 - **原生操作体验**  
   采用 macOS 标准交互方式，熟悉的操作模式让您立即上手。
+
+- **轻量专业设计**  
+  简洁专注的界面设计，无广告无干扰，完美适配专业工作场景。
 
 - **无缝数据库集成**  
   直连 MySQL 和 PostgreSQL，轻松导入和管理数据库架构。
