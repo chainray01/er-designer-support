@@ -1,97 +1,99 @@
-# ER Designer - Professional ERD Tool for Database Design on macOS
+# ER Designer - Enterprise-Grade ERD Tool for Database Architecture on macOS
 
-![ER Designer - ERD (Entity-Relationship Diagram) Design Tool](./images/er.png)  
-|[**DownLoad**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**Click for English**](#English-Version) | [**点击查看中文**](#中文介绍) | [**User Guide**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source Components**](#开源组件--open-source-components) | [**About ERD**](https://www.databasestar.com/entity-relationship-diagram)
+![ER Designer - Professional Database Modeling and ERD Design Tool](./images/er.png)  
+|[**Download**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**English**](#English-Version) | [**中文**](#中文介绍) | [**Documentation**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source**](#开源组件--open-source-components) | [**ERD Reference**](https://www.databasestar.com/entity-relationship-diagram)
 
 ---
 
 <a name="English-Version"></a>
-## About ER Designer
-A professional ERD design tool for macOS that simplifies database modeling. With native support for MySQL and PostgreSQL, ER Designer combines intuitive MacBook gestures with powerful design features to streamline your database architecture workflow.
+## Enterprise Database Modeling Solution
+ER Designer is an enterprise-grade ERD (Entity-Relationship Diagram) design platform for macOS, offering native support for industry-standard databases including MySQL and PostgreSQL. It combines Apple's intuitive user experience with professional database modeling capabilities to accelerate your database architecture workflow.
 
-### Key Features
+### Enterprise Features
 
-- **Intuitive Design Experience**  
-  Native macOS interface with familiar gestures and IDE-like shortcuts for instant productivity.
+- **Native macOS Integration**  
+  Leverages system-native UI/UX patterns and IDE-standard keyboard shortcuts for maximum productivity.
 
-- **Lightweight & Professional**  
-  Clean, focused interface with zero ads and no internet connection required.
+- **Professional Architecture Tools**  
+  Enterprise-grade modeling capabilities with zero advertisements and complete offline functionality.
 
-- **Seamless Database Integration**  
-  Direct connection to MySQL and PostgreSQL databases for effortless schema management.
+- **Database Engine Integration**  
+  First-class support for MySQL and PostgreSQL with direct schema manipulation capabilities.
 
-- **Smart Workspace Management**  
-  Persistent design states with reliable file-based storage and recovery.
+- **Enterprise Workspace Management**  
+  Robust file-based persistence system with automatic state preservation and disaster recovery.
 
-- **Professional Design Tools**  
-  Streamlined interface for table normalization, constraints, relationships, and index optimization.
+- **Advanced Design Framework**  
+  Comprehensive tools for database normalization, constraint management, relationship modeling, and index optimization.
 
-- **Real-time SQL Preview**  
-  Instant SQL generation as you design, ensuring accurate schema implementation.
+- **Real-time DDL Generation**  
+  Dynamic SQL generation with instant preview for accurate schema implementation.
 
-- **Natural Navigation**  
-  System-native trackpad gestures for fluid ERD manipulation.
+- **Gesture-Based Navigation**  
+  Precision control through native trackpad gestures for efficient diagram manipulation.
 
-- **Enhanced Visualization**  
-  Professional diagrams with clear cardinality notation and contextual documentation.
+- **Enterprise Visualization**  
+  Professional-grade diagrams with precise cardinality notation and integrated documentation.
 
-- **Direct Deployment**  
-  Database reverse engineering and one-click synchronization between design and database environments.
+- **Production Deployment**  
+  Bi-directional schema engineering with automated synchronization between models and databases.
 
-### Perfect for Database Professionals
+### Target Audience
 
-- **Database Architects**: Create and maintain enterprise ERDs and relational schemas
-- **Full-Stack Engineers**: Design database structures with visual ERD tools
-- **Solutions Architects**: Communicate database designs through professional ERD visualization
+- **Database Architects**: Design and maintain enterprise-scale data models and relational schemas
+- **Systems Engineers**: Implement complex database architectures with visual modeling tools
+- **Solutions Architects**: Facilitate cross-team communication through professional ERD visualization
+- **Database Administrators**: Manage and optimize existing database structures
 
-ER Designer revolutionizes database modeling through sophisticated ERD visualization and design capabilities, accelerating the development of robust data architectures on macOS.
+ER Designer elevates database modeling through sophisticated visualization and enterprise-grade design capabilities, accelerating the development of robust data architectures in modern development environments.
 
-[Download ER Designer from the App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
+[Available on the Mac App Store](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
 ---
 
 <a name="中文介绍"></a>
-## ER Designer 简介
-ER Designer 是一款专业的 macOS 数据库建模工具，为 MySQL 和 PostgreSQL 提供原生支持。结合 Mac 原生操作体验和强大的设计功能，让数据库架构设计更简单高效。
+## 企业级数据库建模解决方案
+ER Designer 是一款企业级数据库建模平台，为 MySQL 和 PostgreSQL 等主流数据库提供原生支持。完美结合 macOS 优质体验与专业数据库建模功能，显著提升数据架构设计效率。
 
-### 核心优势
+### 企业级特性
 
-- **原生操作体验**  
-  采用 macOS 标准交互方式，熟悉的操作模式让您立即上手。
+- **原生系统集成**  
+  采用 macOS 原生交互范式，配合 IDE 级快捷键体系，确保最佳操作效率。
 
-- **轻量专业设计**  
-  纯净专业的界面设计，没有任何广告，不需要联网运行。
+- **专业建模工具**  
+  企业级建模能力，无广告干扰，支持完全离线运行。
 
-- **无缝数据库集成**  
-  直连 MySQL 和 PostgreSQL，轻松导入和管理数据库架构。
+- **数据库引擎支持**  
+  深度集成 MySQL 和 PostgreSQL，提供直接的模式操作能力。
 
-- **智能工作区管理**  
-  可靠的文件存储系统确保设计状态安全保存与恢复。
+- **企业工作区管理**  
+  强大的文件持久化系统，自动状态保存与灾难恢复。
 
-- **专业设计工具**  
-  简洁界面轻松完成表规范化、约束配置、关系建立和索引优化。
+- **高级设计框架**  
+  全方位支持数据库范式化、约束管理、关系建模和索引优化。
 
-- **实时 SQL 预览**  
-  设计即时生成 SQL，确保架构实现准确无误。
+- **实时 DDL 生成**  
+  动态 SQL 生成与即时预览，确保模式实现精确性。
 
-- **流畅操作体验**  
-  系统原生触控板手势，实现自然流畅的 ERD 操作。
+- **手势化操作**  
+  通过原生触控板手势实现精确控制，提供流畅的图表操作体验。
 
-- **增强可视化**  
-  专业的关系图展示，清晰的基数标注和上下文文档。
+- **企业级可视化**  
+  专业级关系图展示，精确的基数表示和集成文档支持。
 
-- **快速部署**  
-  数据库反向工程与设计同步部署。
+- **生产环境部署**  
+  双向模式工程能力，自动化同步模型与数据库环境。
 
-### 适用专业人群
+### 目标用户
 
-- **数据库架构师**：设计和维护企业级 ERD 和关系模式
-- **全栈工程师**：通过 ERD 工具加速数据库结构设计
-- **解决方案架构师**：通过专业的 ERD 可视化促进团队沟通
+- **数据库架构师**：设计与维护企业级数据模型和关系模式
+- **系统工程师**：通过可视化建模工具实现复杂数据库架构
+- **解决方案架构师**：通过专业 ERD 可视化促进团队协作
+- **数据库管理员**：管理和优化现有数据库结构
 
-ER Designer 通过先进的 ERD 可视化和建模功能革新了数据库设计流程，加速在 macOS 平台上构建健壮的数据架构。
+ER Designer 通过先进的可视化和企业级设计能力重新定义数据库建模流程，加速在现代开发环境中构建健壮的数据架构。
 
-[前往 App Store 下载 ER Designer](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
+[立即在 Mac App Store 下载](https://apps.apple.com/app/er-designer/id6670524297?mt=12)
 
 ---
 
