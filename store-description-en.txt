@@ -1,0 +1,15 @@
+ER Designer - Professional Entity Relationship Diagram (ERD) tool for database modeling and design on macOS.
+
+Create and manage database architectures with enterprise-grade ERD visualization. Features include:
+
+• Visual ERD creation with native macOS controls
+• First-class MySQL and PostgreSQL support
+• Professional database modeling capabilities
+• Real-time SQL generation and preview
+• Gesture-based diagram navigation
+• Enterprise workspace management
+• Advanced relationship modeling tools
+• Automated schema synchronization
+
+Perfect for database architects, engineers, and DBAs who need professional ERD design capabilities without compromising on user experience.
+Unlock the power of visual database design with zero compromises on professional features.
