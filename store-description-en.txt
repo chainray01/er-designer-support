@@ -1,13 +1,9 @@
-Designed specifically for DBAs, developers, and architects, making database design more intuitive and efficient! Start experiencing it now!
+Transform your database design experience with this powerful visual tool! Perfect for DBAs, developers, and architects who want to streamline their workflow. Seamlessly supports MySQL and PostgreSQL with professional-grade features that make complex database design feel effortless.
 
-Core Features:
-Multi-database Syntax Support — Compatible with MySQL and PostgreSQL, accurately parsing table structures, indexes, and constraints.
-Powerful Reverse Engineering — Automatically parses database table structures and synchronizes changes in real-time.
-Intelligent ER Relationship Lines — Automatically connects tables with lines, clearly displaying complex relationships.
-Useful Tools:
-
-Intuitive Table Editor — Quickly configure fields, indexes, and constraints with smooth design adjustments.
-Real-time SQL Generation — Preview and export SQL statements to ensure consistency between design and implementation.
-Free Canvas Zooming — Easily adjust the view to accommodate complex data structures.
-Consistent Shortcuts — Aligned with mainstream IDE shortcuts, reducing the learning curve.
-Native Touchpad Support — Conforms to Mac operating habits.
+Key Features:
+Modern Database Design: Full MySQL/PostgreSQL support with precise structure parsing and instant SQL preview
+Visual Relationship Mapping: Smart auto-routing ER lines that beautifully illustrate table relationships
+Quick Database Import: One-click import from existing databases to start visual design instantly
+Bidirectional Engineering: Convert between diagrams and schemas with incremental update support
+Professional Table Editor: Design tables with speed - fields, indexes, and constraints at your fingertips
+Mac-optimized Workflow: Native touchpad gestures and familiar IDE shortcuts for maximum productivity
