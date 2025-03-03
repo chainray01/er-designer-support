@@ -1,9 +1,9 @@
-Transform your database design experience with this powerful visual tool! Perfect for DBAs, developers, and architects who want to streamline their workflow. Seamlessly supports MySQL and PostgreSQL with professional-grade features that make complex database design feel effortless.
-
-Key Features:
-Modern Database Design: Full MySQL/PostgreSQL support with precise structure parsing and instant SQL preview
-Visual Relationship Mapping: Smart auto-routing ER lines that beautifully illustrate table relationships
-Quick Database Import: One-click import from existing databases to start visual design instantly
-Bidirectional Engineering: Convert between diagrams and schemas with incremental update support
-Professional Table Editor: Design tables with speed - fields, indexes, and constraints at your fingertips
-Mac-optimized Workflow: Native touchpad gestures and familiar IDE shortcuts for maximum productivity
+Master database design with ease! This professional visualization tool designed for DBAs, developers, and architects transforms complex database design into an intuitive visual experience. Full support for MySQL and PostgreSQL delivers exceptional design efficiency.
+No in-app purchases or advertisements - just a pure professional tool.
+Support for MySQL/PostgreSQL with intelligent structure parsing and real-time SQL preview
+Professional ER diagram design clearly displays table relationships, helping you grasp the overall data architecture
+Efficient forward engineering generates precise database structures and SQL code from visual ER diagrams
+Smart reverse engineering quickly imports structures and relationships from existing databases, automatically converting them into intuitive ER diagrams
+Convenient incremental synchronization automatically creates accurate SQL scripts after design changes
+Efficient table design interface for easy configuration and management of fields, indexes, and constraints
+Native Mac experience with smooth touch controls and professional keyboard shortcuts to enhance design efficiency
