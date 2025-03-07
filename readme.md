@@ -110,3 +110,4 @@ This application incorporates the following open-source dependencies:
 - **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
   基于 MIT 许可证分发。文档详见：[mysql-kit GitHub 代码库](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
+
