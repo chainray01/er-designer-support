@@ -1,25 +1,4 @@
-# Site settings
-title: ER Designer
-description: Professional Entity Relationship Diagram (ERD) Tool for Database Design | macOS
-baseurl: "/er-designer-support"
-url: "https://chainray01.github.io"
-github_username: chainray01
-appstore_link: https://apps.apple.com/app/er-designer/id6670524297?mt=12
-
-# Build settings
-markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-
-# Navigation
-header_pages:
-  - index.md
-  - features.md
-  - documentation.md
-  - download.md
-
-# Social links
-social_links:
-  github: chainray01
+  - jekyll-sitemap
