@@ -1,12 +1,4 @@
-# Site settings
-title: ER Designer
-description: Professional Entity Relationship Diagram (ERD) Tool for Database Design
-baseurl: "/er-designer-support"
-url: "https://chainray01.github.io"
-
-# Build settings
-markdown: kramdown
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-cayman
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
