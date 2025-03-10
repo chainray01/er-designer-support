@@ -1,4 +1,5 @@
 theme: jekyll-theme-cayman
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
