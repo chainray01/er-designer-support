@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
