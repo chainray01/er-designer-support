@@ -1,4 +1,4 @@
-# ER Designer - Professional Entity Relationship Diagram (ERD) Tool for Database Design
+# ER Designer - Professional Entity Relationship Diagram (ERD) Tool to Draw & Design ERD for Database Design | macOS
 
 ![ER Designer - Entity Relationship Diagram (ERD) Tool for Database Modeling and Design](./images/er.png)  
 |[**Download**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**English**](#English-Version) | [**中文**](#中文介绍) | [**Documentation**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source**](#开源组件--open-source-components) | [**ERD Reference**](https://www.databasestar.com/entity-relationship-diagram)
@@ -6,8 +6,8 @@
 ---
 
 <a name="English-Version"></a>
-## Professional Database Modeling & ERD Design Solution
-ER Designer is an advanced Entity Relationship Diagram (ERD) design and database modeling platform for macOS. Supporting industry-standard databases including MySQL and PostgreSQL, ER Designer combines powerful ERD visualization with professional database modeling capabilities to streamline your database architecture workflow.
+## Professional Database Modeling & ERD Design Solution - Draw and Design ERD with Ease
+ER Designer is an advanced Entity Relationship Diagram (ERD) design and database modeling platform for macOS. It helps you easily draw and design ERD diagrams while supporting industry-standard databases including MySQL and PostgreSQL. ER Designer combines powerful ERD visualization with professional database modeling capabilities to streamline your database architecture workflow.
 
 ### Professional Features
 
@@ -52,8 +52,8 @@ ER Designer transforms database modeling through advanced ERD visualization and 
 ---
 
 <a name="中文介绍"></a>
-## 专业级实体关系图（ERD）设计解决方案
-ER Designer 是一款专业的实体关系图（ERD）设计与数据库建模平台，为 MySQL 和 PostgreSQL 数据库提供原生支持。完美结合 macOS 卓越体验与专业 ERD 设计功能，全面提升数据库架构设计效率。
+## 专业级实体关系图（ERD）设计解决方案 - 轻松绘制与设计 ERD
+ER Designer 是一款专业的实体关系图（ERD）设计与数据库建模平台，为 MySQL 和 PostgreSQL 数据库提供原生支持。让您轻松绘制和设计 ERD 图，完美结合 macOS 卓越体验与专业 ERD 设计功能，全面提升数据库架构设计效率。
 
 ### 专业特性
 
@@ -110,4 +110,3 @@ This application incorporates the following open-source dependencies:
 - **mysql-kit**  
   版权所有 © 2018 Qutheory, LLC  
   基于 MIT 许可证分发。文档详见：[mysql-kit GitHub 代码库](https://github.com/vapor/mysql-kit?tab=MIT-1-ov-file)。
-
