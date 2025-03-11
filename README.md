@@ -1,16 +1,17 @@
 # ER Designer - Draw & Design Professional ERD (Entity Relationship Diagram) for macOS
 
-![ER Designer - Entity Relationship Diagram (ERD) Tool for Database Modeling and Design](./images/er.png)  
+![ER Designer ](./images/er.png)  
+<video width="100%" autoplay muted loop playsinline poster="./images/er.png">
+  <source src="./video/er.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 |[**Download**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**English**](#English-Version) | [**中文**](#中文介绍) | [**Documentation**](https://github.com/chainray01/er-designer-support/wiki/) | [**ERD Reference**](https://www.databasestar.com/entity-relationship-diagram)
 
 ---
 
 <a name="English-Version"></a>
 
-<video width="100%" autoplay muted loop playsinline>
-  <source src="./video/er.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
 
 ## Professional Database Modeling & ERD Design Solution - Draw and Design ERD with Ease
 ER Designer is an advanced Entity Relationship Diagram (ERD) design and database modeling platform for macOS. It helps you easily draw and design ERD diagrams while supporting industry-standard databases including MySQL and PostgreSQL. ER Designer combines powerful ERD visualization with professional database modeling capabilities to streamline your database architecture workflow.
