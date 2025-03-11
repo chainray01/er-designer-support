@@ -6,6 +6,12 @@
 ---
 
 <a name="English-Version"></a>
+
+<video width="100%" controls>
+  <source src="./videos/er.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ## Professional Database Modeling & ERD Design Solution - Draw and Design ERD with Ease
 ER Designer is an advanced Entity Relationship Diagram (ERD) design and database modeling platform for macOS. It helps you easily draw and design ERD diagrams while supporting industry-standard databases including MySQL and PostgreSQL. ER Designer combines powerful ERD visualization with professional database modeling capabilities to streamline your database architecture workflow.
 
