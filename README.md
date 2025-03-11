@@ -1,7 +1,6 @@
 # ER Designer - Draw & Design Professional ERD (Entity Relationship Diagram) for macOS
 
-![ER Designer ](./images/er.png)  
-<video width="100%" autoplay muted loop playsinline poster="./images/er.png">
+ <video width="100%" autoplay muted loop playsinline poster="./images/er.png">
   <source src="./video/er.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
