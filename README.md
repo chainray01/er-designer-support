@@ -1,4 +1,4 @@
-# ER Designer - Draw & Design Professional ERD (Entity Relationship Diagram) for Database
+# ER Designer - Draw & Design Professional ERD (Entity Relationship Diagram) for macOS
 
 ![ER Designer - Entity Relationship Diagram (ERD) Tool for Database Modeling and Design](./images/er.png)  
 |[**Download**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**English**](#English-Version) | [**中文**](#中文介绍) | [**Documentation**](https://github.com/chainray01/er-designer-support/wiki/) | [**Open Source**](#开源组件--open-source-components) | [**ERD Reference**](https://www.databasestar.com/entity-relationship-diagram)
