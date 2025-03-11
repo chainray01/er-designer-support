@@ -7,7 +7,7 @@
 
 <a name="English-Version"></a>
 
-<video width="100%" controls>
+<video width="100%" autoplay muted loop playsinline>
   <source src="./videos/er.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
