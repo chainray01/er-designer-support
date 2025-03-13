@@ -1,9 +1,7 @@
 # ER Designer - Draw & Design Professional ERD (Entity Relationship Diagram) for macOS
 
- <video width="100%" autoplay muted loop playsinline poster="./images/er.png">
-  <source src="./video/er.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+![ER Designer Screenshot](./images/er.png)
+
 
 |[**Download**](https://apps.apple.com/app/er-designer/id6670524297?mt=12) | [**English**](#English-Version) | [**中文**](#中文介绍) | [**Documentation**](https://github.com/chainray01/er-designer-support/wiki/) | [**ERD Reference**](https://www.databasestar.com/entity-relationship-diagram)
 
