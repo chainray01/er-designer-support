@@ -2,19 +2,20 @@ name: Bug Report
 description: Report an issue to help improve ER Designer
 title: "[BUG] "
 labels: ["bug"]
+
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report.  
-        Please provide as much detail as possible to help us reproduce and fix the issue.
+        Thanks for reporting a bug 🙏  
+        Please fill out the details below so we can reproduce and fix it quickly.
 
   - type: input
     id: summary
     attributes:
       label: Problem summary
       description: One sentence — what breaks, under what condition.
-      placeholder: "e.g. Importing a MySQL schema with composite foreign keys crashes the app on macOS 14"
+      placeholder: e.g. Importing a MySQL schema with composite foreign keys crashes the app on macOS 14
     validations:
       required: true
 
@@ -24,12 +25,22 @@ body:
       label: Severity
       description: How badly does this affect your work?
       options:
-        - "Critical — app is unusable"
-        - "High — core feature broken, no workaround"
-        - "Medium — workaround exists"
-        - "Low — minor / cosmetic"
+        - Critical — app is unusable
+        - High — core feature broken, no workaround
+        - Medium — workaround exists
+        - Low — minor / cosmetic
     validations:
       required: true
+
+  - type: dropdown
+    id: regression
+    attributes:
+      label: Regression?
+      description: Did this work in a previous version?
+      options:
+        - Yes — worked before
+        - No — never worked
+        - Not sure
 
   - type: markdown
     attributes:
@@ -39,7 +50,7 @@ body:
     id: macos-version
     attributes:
       label: macOS version
-      placeholder: "e.g. 14.4.1"
+      placeholder: e.g. 14.4.1
     validations:
       required: true
 
@@ -47,7 +58,7 @@ body:
     id: app-version
     attributes:
       label: ER Designer version
-      placeholder: "e.g. 1.2.0"
+      placeholder: e.g. 1.2.0
     validations:
       required: true
 
@@ -67,7 +78,17 @@ body:
     id: db-version
     attributes:
       label: Database version (optional)
-      placeholder: "e.g. MySQL 8.0.36"
+      placeholder: e.g. MySQL 8.0.36
+
+  - type: dropdown
+    id: connection-type
+    attributes:
+      label: Connection type (optional)
+      options:
+        - Local database
+        - Remote database
+        - Docker container
+        - Other
 
   - type: markdown
     attributes:
@@ -77,11 +98,14 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
-      description: Minimum steps that reliably trigger the bug.
+      description: |
+        Minimum steps that reliably trigger the bug.
+        Be precise — assume we are starting from a fresh app install.
       placeholder: |
-        1. Open ER Designer and connect to a MySQL 8 database
-        2. File → Import schema → select the .sql file
-        3. Observe the crash / unexpected behavior
+        1. Open ER Designer
+        2. Connect to a MySQL 8 database
+        3. Import schema file
+        4. Observe the issue
     validations:
       required: true
 
@@ -97,7 +121,13 @@ body:
     id: actual
     attributes:
       label: Actual behavior
-      placeholder: App crashes with an unhandled exception. No schema is loaded.
+      description: |
+        What actually happened?
+
+        If the app crashes, include the error message or stack trace below.
+      placeholder: |
+        App crashes with an unhandled exception.
+        Error: NullPointerException at SchemaParser.java:42
     validations:
       required: true
 
@@ -109,18 +139,16 @@ body:
     id: reproducibility
     attributes:
       label: Reproducibility (optional)
-      description: How consistently can you trigger this bug?
       options:
-        - "Always"
-        - "Often (>50% of the time)"
-        - "Sometimes"
-        - "Rarely / happened once"
+        - Always
+        - Often (>50% of the time)
+        - Sometimes
+        - Rarely / happened once
 
   - type: checkboxes
     id: context
     attributes:
       label: Context (optional)
-      description: Check all that apply.
       options:
         - label: Working with an existing database
         - label: Creating a new / empty schema
@@ -128,19 +156,28 @@ body:
         - label: Export
         - label: Diagram editing
         - label: Diff / migration
+        - label: Reproducible in a new/empty project
 
-  - type: textarea
-    id: media
+  - type: markdown
     attributes:
-      label: Screenshots / videos / GIFs (optional)
-      description: |
-        Drag and drop files directly into this box.  
-        Supported formats: PNG · JPG · GIF · MP4 · MOV (max 10 MB per file)
-      placeholder: Paste error logs here, or drag in screenshots / screen recordings…
-      render: shell
+      value: "---"
 
   - type: textarea
     id: extra
     attributes:
-      label: Anything else? (optional)
-      description: Workarounds you've tried, related issues, or links to similar reports.
+      label: Additional information (logs, screenshots, files)
+      description: |
+        Include anything that may help us debug the issue:
+        - Error logs or stack traces
+        - Screenshots or screen recordings
+        - Sample SQL / schema files
+
+        You can drag and drop files directly into this box.
+
+        Logs may be located at:
+        ~/Library/Logs/ERDesigner/
+      placeholder: |
+        Paste logs here, or attach screenshots / recordings…
+
+        Example:
+        ERROR NullPointerException at SchemaParser.java:42
