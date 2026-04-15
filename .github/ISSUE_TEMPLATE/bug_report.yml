@@ -1,0 +1,146 @@
+name: Bug Report
+description: Report an issue to help improve ER Designer
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.  
+        Please provide as much detail as possible to help us reproduce and fix the issue.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Problem summary
+      description: One sentence — what breaks, under what condition.
+      placeholder: "e.g. Importing a MySQL schema with composite foreign keys crashes the app on macOS 14"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How badly does this affect your work?
+      options:
+        - "Critical — app is unusable"
+        - "High — core feature broken, no workaround"
+        - "Medium — workaround exists"
+        - "Low — minor / cosmetic"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "e.g. 14.4.1"
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: ER Designer version
+      placeholder: "e.g. 1.2.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: db-type
+    attributes:
+      label: Database type
+      options:
+        - MySQL
+        - PostgreSQL
+        - SQLite
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: db-version
+    attributes:
+      label: Database version
+      placeholder: "e.g. MySQL 8.0.36"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Minimum steps that reliably trigger the bug.
+      placeholder: |
+        1. Open ER Designer and connect to a MySQL 8 database
+        2. File → Import schema → select the .sql file
+        3. Observe the crash / unexpected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: Schema imports successfully and all tables appear in the diagram.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: App crashes with an unhandled exception. No schema is loaded.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: Reproducibility
+      options:
+        - "Always"
+        - "Often (>50% of the time)"
+        - "Sometimes"
+        - "Rarely / happened once"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: context
+    attributes:
+      label: Context
+      description: Check all that apply.
+      options:
+        - label: Working with an existing database
+        - label: Creating a new / empty schema
+        - label: Import
+        - label: Export
+        - label: Diagram editing
+        - label: Diff / migration
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error logs / screenshots
+      description: Paste console output or stack trace. Attach screenshots by dragging them here.
+      render: shell
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Workarounds you've tried, related issues, or links to similar reports.
