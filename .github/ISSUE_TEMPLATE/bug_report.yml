@@ -95,39 +95,28 @@ body:
       value: "---"
 
   - type: textarea
-    id: steps
+    id: reproduction
     attributes:
-      label: Steps to reproduce
+      label: Reproduction details
       description: |
-        Minimum steps that reliably trigger the bug.
-        Be precise — assume we are starting from a fresh app install.
+        Describe how to reproduce the issue and what happened.
+  
+        Please include:
+        1. Steps to reproduce
+        2. What you expected to happen
+        3. What actually happened
+  
+        Be clear and concise — assume we are starting from a fresh app install.
       placeholder: |
+        Steps:
         1. Open ER Designer
-        2. Connect to a MySQL 8 database
-        3. Import schema file
-        4. Observe the issue
-    validations:
-      required: true
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      placeholder: Schema imports successfully and all tables appear in the diagram.
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual behavior
-      description: |
-        What actually happened?
-
-        If the app crashes, include the error message or stack trace below.
-      placeholder: |
-        App crashes with an unhandled exception.
-        Error: NullPointerException at SchemaParser.java:42
+        2. Import schema.sql
+  
+        Expected:
+        Schema loads successfully
+  
+        Actual:
+        App crashes with NullPointerException
     validations:
       required: true
 
