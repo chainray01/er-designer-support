@@ -75,15 +75,17 @@ body:
     attributes:
       value: "---"
 
-- type: textarea
-    id: media
+  - type: textarea
+    id: steps
     attributes:
-      label: Screenshots / videos / GIFs
-      description: |
-        Drag and drop files directly into this box.  
-        Supported formats: PNG · JPG · GIF · MP4 · MOV (max 10 MB per file)
-      placeholder: Paste error logs here, or drag in screenshots / screen recordings…
-      render: shell
+      label: Steps to reproduce
+      description: Minimum steps that reliably trigger the bug.
+      placeholder: |
+        1. Open ER Designer and connect to a MySQL 8 database
+        2. File → Import schema → select the .sql file
+        3. Observe the crash / unexpected behavior
+    validations:
+      required: true
 
   - type: textarea
     id: expected
@@ -131,10 +133,13 @@ body:
         - label: Diff / migration
 
   - type: textarea
-    id: logs
+    id: media
     attributes:
-      label: Error logs / screenshots
-      description: Paste console output or stack trace. Attach screenshots by dragging them here.
+      label: Screenshots / videos / GIFs
+      description: |
+        Drag and drop files directly into this box.  
+        Supported formats: PNG · JPG · GIF · MP4 · MOV (max 10 MB per file)
+      placeholder: Paste error logs here, or drag in screenshots / screen recordings…
       render: shell
 
   - type: textarea
