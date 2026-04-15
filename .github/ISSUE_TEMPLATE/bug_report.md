@@ -1,36 +1,77 @@
 ---
 name: Bug Report
 about: Report an issue to help improve ER Designer
-title: '[BUG] '
+title: '[BUG] <one-line summary of the problem>'
 labels: 'bug'
 assignees: ''
+---
+
+## Problem summary
+
+<!-- One sentence: what breaks, under what condition. -->
+<!-- e.g. "Importing a MySQL schema with composite foreign keys crashes the app on macOS 14." -->
+
+## Severity
+
+<!-- Mark one with an [x] -->
+- [ ] Critical — app is unusable
+- [ ] High — core feature broken, no workaround
+- [ ] Medium — workaround exists
+- [ ] Low — minor / cosmetic
 
 ---
 
-**Bug Description**
-A clear and concise description of the issue.
+## Environment
 
-**Environment**
-- macOS Version: [e.g. 14.1]
-- ER Designer Version: [e.g. 1.2.0]
-- Database Type: [MySQL/PostgreSQL]
-- Database Version: [e.g. MySQL 8.0]
+| Field | Value |
+|---|---|
+| macOS version | <!-- e.g. 14.4.1 --> |
+| ER Designer version | <!-- e.g. 1.2.0 --> |
+| Database type | <!-- MySQL / PostgreSQL / SQLite / Other --> |
+| Database version | <!-- e.g. MySQL 8.0.36 --> |
 
-**Steps to Reproduce**
+---
+
+## Steps to reproduce
+
+<!-- Minimum steps that reliably trigger the bug. -->
+
 1. 
 2. 
 3. 
 
-**Expected Behavior**
-What should have happened?
+## Expected behavior
 
-**Actual Behavior**
-What happened instead?
+<!-- What should have happened? -->
 
-**Screenshots/Logs**
-If applicable, add screenshots or error logs to help explain your problem.
+## Actual behavior
 
-**Additional Context**
-- Were you working with an existing database or creating a new schema?
-- Did this issue occur during specific operations (e.g., import, export, diagram editing)?
-- Any other relevant details?
+<!-- What happened instead? -->
+
+---
+
+## Reproducibility
+
+<!-- Mark one with an [x] -->
+- [ ] Always
+- [ ] Often (>50% of the time)
+- [ ] Sometimes
+- [ ] Rarely / happened once
+
+## Context
+
+<!-- Check all that apply -->
+- [ ] Working with an existing database
+- [ ] Creating a new / empty schema
+- [ ] Import
+- [ ] Export
+- [ ] Diagram editing
+- [ ] Diff / migration
+
+## Error logs / screenshots
+
+<!-- Paste console output or stack trace below. Attach screenshots if applicable. -->
+
+## Anything else?
+
+<!-- Workarounds you've tried, related issues, links to similar reports. -->
